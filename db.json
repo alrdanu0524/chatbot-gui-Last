@@ -1,0 +1,591 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good day",
+        "Greetings",
+        "How are you?",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello! How can I assist you?",
+        "Hey there! How can I help you today?",
+        "Hi! How can I assist you?",
+        "Good day! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "open_account",
+      "patterns": [
+        "I want to open a bank account",
+        "How do I open an account?",
+        "Can I create a new account?",
+        "I'd like to open a savings account",
+        "Help me open a new bank account",
+        "What are the steps to open a bank account?"
+      ],
+      "responses": [
+        "Sure, I can help you with that. To open a new account, please provide your full name, address, and phone number. For more details, visit <a href=\"https://www.yourbank.com/open-account\">this link</a>.",
+        "To open a bank account, we need some personal information. Can you please provide your full name, address, and contact details? You can also check <a href=\"https://www.yourbank.com/open-account\">this page</a> for more information.",
+        "Opening a new account is easy! I'll need your full name, address, and phone number to get started. For more info, click <a href=\"https://www.yourbank.com/open-account\">here</a>.",
+        "Great! Let's get started. Please provide your full name, address, and phone number. More information can be found <a href=\"https://www.yourbank.com/open-account\">here</a>.",
+        "You can open a new account by providing your full name, address, and phone number. Visit <a href=\"https://www.yourbank.com/open-account\">this link</a> for more details."
+      ]
+    },
+    {
+      "tag": "account_requirements",
+      "patterns": [
+        "What do I need to open a bank account?",
+        "Requirements for opening a new account",
+        "What documents are required to open an account?",
+        "Tell me the prerequisites for opening a bank account",
+        "What information do I need to provide to open an account?"
+      ],
+      "responses": [
+        "To open a bank account, you will need to provide a valid ID, proof of address, and your social security number. For a detailed list, visit <a href=\"https://www.yourbank.com/account-requirements\">this page</a>.",
+        "You'll need a valid identification document, proof of address, and your social security number to open a new account. More details are available <a href=\"https://www.yourbank.com/account-requirements\">here</a>.",
+        "The requirements for opening a bank account include a government-issued ID, proof of residence, and your social security number. Visit <a href=\"https://www.yourbank.com/account-requirements\">this page</a> for more info.",
+        "To open an account, please have your ID, proof of address, and social security number ready. More information is available <a href=\"https://www.yourbank.com/account-requirements\">here</a>."
+      ]
+    },
+    {
+      "tag": "minimum_balance",
+      "patterns": [
+        "What is the minimum balance for a savings account?",
+        "Minimum balance requirement",
+        "How much do I need to keep in my account?",
+        "Is there a minimum balance requirement?"
+      ],
+      "responses": [
+        "The minimum balance requirement for a savings account is Rs.5000.00.",
+        "You need to maintain a minimum balance of Rs.5,000.00 in your savings account.",
+        "The required minimum balance is Rs.5,000.00 for a standard savings account."
+      ]
+    },
+    {
+      "tag": "fees_charges",
+      "patterns": [
+        "Are there any fees for opening an account?",
+        "Account opening charges",
+        "What are the charges for maintaining an account?",
+        "Are there any hidden fees?"
+      ],
+      "responses": [
+        "There are no fees for opening a standard account, but some premium accounts may have associated fees.",
+        "Account maintenance fees vary depending on the type of account. Please check our website for detailed information.",
+        "There are no hidden fees, but some services like overdraft protection may incur charges."
+      ]
+    },
+    {
+      "tag": "online_banking",
+      "patterns": [
+        "How do I set up online banking?",
+        "Steps to activate online banking",
+        "Can I manage my account online?",
+        "Online banking registration process"
+      ],
+      "responses": [
+        "To set up online banking, visit our website and click on 'Register'. Follow the instructions to create your online account.",
+        "You can manage your account online by registering on our online banking portal.",
+        "Activate online banking by registering on our website using your account number and personal details."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Goodbye",
+        "Bye",
+        "See you later"
+      ],
+      "responses": [
+        "You're welcome! Have a great day!",
+        "Thank you for using our service. Goodbye!",
+        "Bye! If you have any more questions, feel free to ask.",
+        "Goodbye! We look forward to helping you again."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+          "Thanks",
+          "Thank you",
+          "I appreciate it",
+          "Thanks a lot"
+      ],
+      "responses": [
+          "You're welcome!",
+          "No problem!",
+          "My pleasure!",
+          "Anytime!"
+      ]
+  },
+    {
+      "tag": "invalid",
+      "patterns": [
+        "",
+        "asdfg",
+        "xyz123",
+        "random text"
+      ],
+      "responses": [
+        "Sorry, I didn't understand that.",
+        "Can you please rephrase?",
+        "I'm not sure I understand."
+      ]
+    },
+    {
+      "tag": "branch_location",
+      "patterns": [
+        "Where is the nearest branch?",
+        "Find a branch near me",
+        "Branch locations",
+        "Where can I find your branches?"
+      ],
+      "responses": [
+        "You can find the nearest branch using our branch locator on the website. https://tinyurl.com/2apczz3m",
+        "Our branches are located at various places. Please visit our website to find the nearest one. https://tinyurl.com/2apczz3m",
+        "Use our online branch locator tool to find the branch closest to you. https://tinyurl.com/2apczz3m"
+      ]
+    },
+    {
+      "tag": "atm_location",
+      "patterns": [
+        "Where is the nearest ATM?",
+        "Find an ATM near me",
+        "ATM locations",
+        "Where can I find your ATMs?"
+      ],
+      "responses": [
+        "You can find the nearest ATM using our ATM locator on the website. https://tinyurl.com/32p5uk3a",
+        "Our ATMs are located at various places. Please visit our website to find the nearest one. https://tinyurl.com/32p5uk3a",
+        "Use our online ATM locator tool to find the ATM closest to you. https://tinyurl.com/32p5uk3a"
+      ]
+    },
+    {
+      "tag": "account_balance",
+      "patterns": [
+        "How do I check my account balance?",
+        "Account balance inquiry",
+        "Steps to check account balance",
+        "Check my balance"
+      ],
+      "responses": [
+        "You can check your account balance through online banking, our mobile app, or by visiting any of our ATMs.",
+        "Log in to your online banking account or use our mobile app to check your balance.",
+        "Visit any of our ATMs to check your account balance."
+      ]
+    },
+    {
+      "tag": "credit_card",
+      "patterns": [
+        "How can I apply for a credit card?",
+        "Credit card application process",
+        "Steps to get a credit card",
+        "What are the requirements for a credit card?"
+      ],
+      "responses": [
+        "To apply for a credit card, visit our website and fill out the credit card application form or visit your nearest branch. https://tinyurl.com/2p73jt7t",
+        "You can apply for a credit card online or at any of our branches. Make sure to have your financial documents ready. https://tinyurl.com/2p73jt7t",
+        "Check our website for the detailed credit card application process and requirements. https://tinyurl.com/2p73jt7t"
+      ]
+    },
+    {
+      "tag": "loan_inquiry",
+      "patterns": [
+        "How can I apply for a loan?",
+        "Loan application process",
+        "Steps to get a loan",
+        "What are the requirements for a loan?"
+      ],
+      "responses": [
+        "To apply for a loan, visit our website and fill out the loan application form or visit your nearest branch. https://tinyurl.com/2p73jt7t",
+        "You can apply for a loan online or at any of our branches. Make sure to have your financial documents ready. https://tinyurl.com/2p73jt7t",
+        "Check our website for the detailed loan application process and requirements. https://tinyurl.com/2p73jt7t"
+      ]
+    },
+    {
+      "tag": "account_closing",
+      "patterns": [
+        "How do I close my bank account?",
+        "What is the process to close an account?",
+        "Steps to close a savings account",
+        "How can I close my checking account?"
+      ],
+      "responses": [
+        "To close your bank account, please visit your nearest branch with a valid ID and fill out the account closure form.",
+        "You need to visit our branch with necessary documents to close your account.",
+        "Contact our customer service for detailed instructions on how to close your account."
+      ]
+    },
+    {
+      "tag": "foreign_exchange",
+      "patterns": [
+        "What is the current exchange rate?",
+        "Foreign exchange rates",
+        "Exchange rate for USD to EUR",
+        "Currency exchange rate"
+      ],
+      "responses": [
+        "You can check the current exchange rates on our website under the Foreign Exchange section. https://tinyurl.com/yc383myy",
+        "Visit our website for the latest foreign exchange rates. https://tinyurl.com/yc383myy",
+        "Exchange rates are updated daily on our website. https://tinyurl.com/yc383myy"
+      ]
+    },
+    {
+      "tag": "investment_options",
+      "patterns": [
+        "What investment options do you offer?",
+        "Investment services",
+        "How can I invest my money?",
+        "Tell me about your investment plans"
+      ],
+      "responses": [
+        "We offer a variety of investment options including mutual funds, fixed deposits, and retirement plans. Please visit our website for more details. https://tinyurl.com/2p73jt7t",
+        "You can explore our investment services on our website or visit a branch to speak with an investment advisor. https://tinyurl.com/2p73jt7t",
+        "Our investment options include mutual funds, fixed deposits, and more. Check our website for detailed information. https://tinyurl.com/2p73jt7t"
+      ]
+    }, 
+    {
+      "tag": "open_account",
+      "patterns": [
+        "I want to open a bank account",
+        "How do I open an account?",
+        "Can I create a new account?",
+        "I'd like to open a savings account",
+        "Help me open a new bank account",
+        "What are the steps to open a bank account?"
+      ],
+      "responses": [
+        "Sure, I can help you with that. To open a new account, please visit your nearest branch and fill out the account opening form.",
+        "To open a bank account, please visit your nearest branch and complete the required form.",
+        "Opening a new account is easy! Please visit the nearest bank branch and fill out the account opening form.",
+        "Great! Let's get started. Please go to your nearest branch and fill out the form to open a new account.",
+        "You can open a new account by visiting your nearest bank branch and filling out the account opening form. Let's get started!"
+      ]
+    },
+    {
+      "tag": "account_requirements",
+      "patterns": [
+        "What do I need to open a bank account?",
+        "Requirements for opening a new account",
+        "What documents are required to open an account?",
+        "Tell me the prerequisites for opening a bank account",
+        "What information do I need to provide to open an account?"
+      ],
+      "responses": [
+        "To open a bank account, you will need to provide a valid ID, proof of address, and your social security number.",
+        "You'll need a valid identification document, proof of address, and your social security number to open a new account.",
+        "The requirements for opening a bank account include a government-issued ID, proof of residence, and your social security number.",
+        "To open an account, please have your ID, proof of address, and social security number ready."
+      ]
+    },
+    {
+      "tag": "account_types",
+      "patterns": [
+        "What types of accounts can I open?",
+        "Tell me about the different types of accounts",
+        "What are the account options available?",
+        "Explain the different kinds of bank accounts I can open",
+        "What types of bank accounts do you offer?"
+      ],
+      "responses": [
+        "We offer several types of accounts, including savings accounts, checking accounts, and business accounts. Which one are you interested in?",
+        "You can open a savings account, a checking account, or a business account with us. Let me know which one suits your needs.",
+        "Our bank offers savings accounts, checking accounts, and business accounts. Which one would you like to learn more about?",
+        "You have the option to open a savings account, a checking account, or a business account. Which type would you prefer?"
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "I need to speak to a representative",
+        "Can I talk to customer support?",
+        "I need help from customer service",
+        "Can I contact support?",
+        "How can I reach customer service?"
+      ],
+      "responses": [
+        "You can reach our customer support at +94-11-123-4567or Click This URL https://tinyurl.com/287knjv3.",
+        "Our customer service team is available at +94-11-123-4567or you can Click here  https://tinyurl.com/287knjv3",
+        "To contact support, call +94-11-123-4567 or Click https://tinyurl.com/287knjv3",
+        "You can speak to a representative by calling +94-11-123-4567 or by Click https://tinyurl.com/287knjv3"
+      ]
+    },
+    {
+      "tag": "account_types",
+      "patterns": [
+        "What types of accounts can I open?",
+        "Tell me about the different types of accounts",
+        "What are the account options available?",
+        "Explain the different kinds of bank accounts I can open",
+        "What types of bank accounts do you offer?"
+      ],
+      "responses": [
+        "We offer several types of accounts, including savings accounts, checking accounts, and business accounts. Learn more <a href=\"https://www.yourbank.com/account-types\">here</a>.",
+        "You can open a savings account, a checking account, or a business account with us. Let me know which one suits your needs, or click <a href=\"https://www.yourbank.com/account-types\">here</a> for more details.",
+        "Our bank offers savings accounts, checking accounts, and business accounts. Which one would you like to learn more about? More information is available <a href=\"https://www.yourbank.com/account-types\">here</a>.",
+        "You have the option to open a savings account, a checking account, or a business account. Which type would you prefer? Visit <a href=\"https://www.yourbank.com/account-types\">this page</a> for more details."
+      ]
+    },
+    {
+      "tag": "loan_application",
+      "patterns": [
+          "How do I apply for a home loan?",
+          "Home loan application process",
+          "Apply for a house loan",
+          "Home loan application procedure"
+      ],
+      "responses": [
+          "You can apply for a home loan by visiting our nearest branch or through our online banking portal. https://tinyurl.com/2p73jt7t"
+      ]
+    },
+    {
+      "tag": "loan_eligibility",
+      "patterns": [
+          "Who is eligible for a home loan?",
+          "Home loan eligibility criteria",
+          "Home loan eligibility requirements",
+          "Can I get a home loan?"
+      ],
+      "responses": [
+          "Home loan eligibility criteria include having a stable income, good credit history, and necessary documentation such as ID, proof of income, and property documents."
+      ]
+    },
+    {
+      "tag": "required_documents",
+      "patterns": [
+          "What documents are required to apply for a home loan?",
+          "Documents needed for home loan application",
+          "Required documents for house loan",
+          "What do I need to apply for a home loan?"
+      ],
+      "responses": [
+          "To apply for a home loan, you will need a valid ID, proof of income, bank statements, proof of address, and property documents. Additional documents may be required depending on your specific situation."
+      ]
+    },
+    {
+      "tag": "interest_rates",
+      "patterns": [
+          "What are the interest rates for home loans?",
+          "Home loan interest rates",
+          "Current home loan interest rates",
+          "Interest rates on house loans"
+      ],
+      "responses": [
+          "The interest rates for home loans vary depending on your credit profile and the loan amount. For the most accurate information, please visit our website or contact our branch. https://tinyurl.com/2p73jt7t"
+      ]
+    },
+    {
+      "tag": "loan_repayment",
+      "patterns": [
+          "What is the repayment period for a home loan?",
+          "Home loan repayment terms",
+          "How long do I have to repay the house loan?",
+          "Home loan repayment duration"
+      ],
+      "responses": [
+          "The repayment period for home loans can range from 10 to 30 years, depending on your preference and eligibility."
+      ]
+    },
+    {
+      "tag": "loan_calculator",
+      "patterns": [
+          "Do you have a home loan calculator?",
+          "Home loan repayment calculator",
+          "Calculate my home loan repayment",
+          "House loan calculator tool"
+      ],
+      "responses": [
+          "Yes, we have a home loan calculator on our website. It can help you estimate your monthly repayments and total interest payable based on the loan amount and tenure. https://tinyurl.com/2p73jt7t"
+      ]
+    },
+    {
+      "tag": "loan_status",
+      "patterns": [
+          "How can I check my home loan status?",
+          "Home loan application status",
+          "Check my home loan status",
+          "Status of my house loan application"
+      ],
+      "responses": [
+          "You can check the status of your home loan application by logging into our online banking portal or by contacting our customer service. https://tinyurl.com/287knjv3."
+      ]
+    },
+    {
+      "tag": "loan_approval_time",
+      "patterns": [
+          "How long does it take to get a home loan approved?",
+          "Home loan approval time",
+          "Home loan processing time",
+          "Time for house loan approval"
+      ],
+      "responses": [
+          "The approval time for home loans varies depending on the completeness of your application. Typically, it takes a few weeks to process and approve a home loan."
+      ]
+    },
+    {
+      "tag": "loan_prepayment",
+      "patterns": [
+          "Can I prepay my home loan?",
+          "Home loan prepayment options",
+          "Prepay my house loan",
+          "Early home loan repayment"
+      ],
+      "responses": [
+          "Yes, you can prepay your home loan. However, some loans may have prepayment penalties. Please check the terms of your loan agreement or contact us for more details. https://tinyurl.com/287knjv3."
+      ]
+    },
+    {
+      "tag": "loan_default",
+      "patterns": [
+          "What happens if I default on my home loan?",
+          "Consequences of home loan default",
+          "Home loan default implications",
+          "Defaulting on a house loan"
+      ],
+      "responses": [
+          "Defaulting on a home loan can have serious consequences including foreclosure of the property, damage to your credit score, and additional fees. Please contact us immediately if you're having trouble making payments. https://tinyurl.com/287knjv3."
+      ]
+    },
+    {
+      "tag": "collateral_requirement",
+      "patterns": [
+          "Do I need collateral for a home loan?",
+          "Home loan collateral requirements",
+          "Collateral for house loan",
+          "Secured home loans"
+      ],
+      "responses": [
+          "Yes, home loans are secured loans, which means the property you are purchasing or refinancing is used as collateral for the loan."
+      ]
+    },
+    {
+      "tag": "credit_score",
+      "patterns": [
+          "What credit score do I need for a home loan?",
+          "Credit score requirements for home loan",
+          "Home loan credit score criteria",
+          "Credit score needed for house loan approval"
+      ],
+      "responses": [
+          "A good credit score improves your chances of home loan approval and better interest rates. Generally, a credit score of 650 and above is considered good for home loans."
+      ]
+    },
+    {
+      "tag": "loan_disbursement",
+      "patterns": [
+          "How is the home loan amount disbursed?",
+          "Home loan disbursement process",
+          "Receiving the home loan amount",
+          "Disbursement of house loan funds"
+      ],
+      "responses": [
+          "Once approved, the home loan amount is disbursed directly to the seller or builder of the property. For refinance loans, the amount is disbursed to pay off the existing mortgage."
+      ]
+    },
+    {
+      "tag": "loan_purpose",
+      "patterns": [
+          "What can I use a home loan for?",
+          "Purpose of a home loan",
+          "Home loan usage restrictions",
+          "What can house loan funds be used for?"
+      ],
+      "responses": [
+          "Home loans can be used for purchasing a new home, refinancing an existing mortgage, home construction, or home renovation. Please specify your requirement for more details."
+      ]
+    },
+    {
+      "tag": "co_applicant",
+      "patterns": [
+          "Can I apply for a home loan with a co-applicant?",
+          "Co-applicant for home loan",
+          "Home loan application with another person",
+          "Joint home loan application"
+      ],
+      "responses": [
+          "Yes, you can apply for a home loan with a co-applicant. Having a co-applicant can improve your chances of approval and better loan terms."
+      ]
+    },
+    {
+      "tag": "loan_limit",
+      "patterns": [
+          "What is the maximum home loan amount I can get?",
+          "Maximum home loan limit",
+          "Highest home loan amount available",
+          "Home loan amount limits"
+      ],
+      "responses": [
+          "The maximum home loan amount depends on your eligibility and the value of the property. Generally, lenders offer up to 80-90% of the property value as a home loan."
+      ]
+    },
+    {
+      "tag": "loan_refinancing",
+      "patterns": [
+          "Can I refinance my existing home loan?",
+          "Home loan refinancing options",
+          "Refinance my house loan",
+          "Options to refinance home loan"
+      ],
+      "responses": [
+          "Yes, we offer home loan refinancing options. Refinancing can help you get better interest rates or lower monthly payments."
+      ]
+    },  
+    {
+      "tag": "balance_inquiry",
+      "patterns": ["Check balance", "Account balance", "Balance inquiry", "Balance check"],
+      "responses": ["To check your account balance, please log in to your online banking account or use our mobile app. https://tinyurl.com/vrun5apu"]
+    },
+    {
+      "tag": "transaction_history",
+      "patterns": ["Transaction history", "View transactions", "Recent transactions"],
+      "responses": ["You can view your transaction history by logging in to your online banking account. https://tinyurl.com/vrun5apu"]
+    },
+    {
+      "tag": "transfer_money",
+      "patterns": ["Transfer money", "Send money", "Make a transfer"],
+      "responses": ["You can transfer money between your accounts or to another account by using our online banking services. https://tinyurl.com/vrun5apu"]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": ["Payment methods", "Ways to pay", "How to make payments"],
+      "responses": ["You can make payments through our online banking platform, mobile app, ATMs, or by visiting a branch."]
+    },
+    {
+      "tag": "mortgage_info",
+      "patterns": ["Mortgage information", "Home mortgage", "Mortgage rates"],
+      "responses": ["We offer competitive mortgage rates for homebuyers. Would you like to learn more about our mortgage options? https://tinyurl.com/2bzxhecb"]
+    },
+    {
+      "tag": "retirement_planning",
+      "patterns": ["Retirement planning", "401(k) accounts", "IRA options"],
+      "responses": ["We offer retirement planning services including 401(k) accounts, IRAs, and investment strategies for your future."]
+    },
+    {
+      "tag": "business_accounts",
+      "patterns": ["Business accounts", "Small business services", "Corporate banking"],
+      "responses": ["Our business accounts and services are designed to meet the financial needs of businesses, from startups to established enterprises."]
+    },
+    {
+      "tag": "customer_feedback",
+      "patterns": ["Feedback", "Customer survey", "Share your experience"],
+      "responses": ["We value your feedback! Please take a moment to complete our customer survey or share your experience with us. https://forms.gle/RnYWq6HbkGaFVxqN8"]
+    },
+    {
+      "tag": "mobile_banking_app",
+      "patterns": ["Mobile banking app", "Download app", "App features"],
+      "responses": ["Our mobile banking app offers convenient features such as account management, mobile payments, and secure login options. https://tinyurl.com/vrun5apu"]
+    },
+    {
+      "tag": "account_upgrade",
+      "patterns": ["Upgrade account", "Account enhancements", "Premium accounts"],
+      "responses": ["You can upgrade your account to enjoy additional benefits and features. Contact us to learn more about our premium account options. https://tinyurl.com/287knjv3."]
+    }
+  ]
+}
